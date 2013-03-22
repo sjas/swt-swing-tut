@@ -1,0 +1,1026 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_khYcAIzoEeKcB5ZsBHg5cw">
+  <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kwgdIIzoEeKcB5ZsBHg5cw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_k13eQYzoEeKcB5ZsBHg5cw" targetItem="_k17vtIzoEeKcB5ZsBHg5cw" sourceItem="_k13eQIzoEeKcB5ZsBHg5cw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_k14FUYzoEeKcB5ZsBHg5cw" targetItem="_k17v14zoEeKcB5ZsBHg5cw" sourceItem="_k14FUIzoEeKcB5ZsBHg5cw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_k14sYYzoEeKcB5ZsBHg5cw" targetItem="_k17v24zoEeKcB5ZsBHg5cw" sourceItem="_k14sYIzoEeKcB5ZsBHg5cw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_k15TcYzoEeKcB5ZsBHg5cw" targetItem="_k17v34zoEeKcB5ZsBHg5cw" sourceItem="_k15TcIzoEeKcB5ZsBHg5cw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k16hkIzoEeKcB5ZsBHg5cw" sourceAnchor="280.0,175.0" targetAnchor="270.0,0.0" target="_k2d7MIzoEeKcB5ZsBHg5cw" source="_k17vtIzoEeKcB5ZsBHg5cw">
+    <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyjrkIzoEeKcB5ZsBHg5cw"/>
+    <nameVisual xmi:id="_k17IoIzoEeKcB5ZsBHg5cw" text="">
+      <visualProperties xmi:id="_k8jVEIzoEeKcB5ZsBHg5cw" position="2.0,10.0" visible="false"/>
+    </nameVisual>
+    <sourceRole xmi:id="_k17IoYzoEeKcB5ZsBHg5cw" aggregationKind="NONE" name="nextRoom" navigable="true">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyVCEozoEeKcB5ZsBHg5cw"/>
+      <visualProperties xmi:id="_k8iuAYzoEeKcB5ZsBHg5cw" position="6.0,84.0"/>
+      <stereotypes xmi:id="_k17IoozoEeKcB5ZsBHg5cw" name="Codestyle_get_setStyledElement">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyWQMIzoEeKcB5ZsBHg5cw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k2M1cIzoEeKcB5ZsBHg5cw" name="Codestyle_get_setStyledElement">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyWQMIzoEeKcB5ZsBHg5cw"/>
+      </stereotypes>
+      <visibility xmi:id="_k17Io4zoEeKcB5ZsBHg5cw" label="+"/>
+      <cardinality xmi:id="_k17IpIzoEeKcB5ZsBHg5cw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k17IpYzoEeKcB5ZsBHg5cw" aggregationKind="NONE" name="">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyjrkYzoEeKcB5ZsBHg5cw"/>
+      <visualProperties xmi:id="_k8jVEYzoEeKcB5ZsBHg5cw" position="18.0,-112.0"/>
+      <visibility xmi:id="_k17IpozoEeKcB5ZsBHg5cw" label="+"/>
+      <cardinality xmi:id="_k17Ip4zoEeKcB5ZsBHg5cw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k17IqIzoEeKcB5ZsBHg5cw" sourceAnchor="240.0,0.0" targetAnchor="250.0,175.0" target="_k17vtIzoEeKcB5ZsBHg5cw" source="_k2d7MIzoEeKcB5ZsBHg5cw">
+    <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kylgxYzoEeKcB5ZsBHg5cw"/>
+    <nameVisual xmi:id="_k17IqYzoEeKcB5ZsBHg5cw" text="">
+      <visualProperties xmi:id="_k8m_cIzoEeKcB5ZsBHg5cw" position="2.0,10.0" visible="false"/>
+    </nameVisual>
+    <sourceRole xmi:id="_k17IqozoEeKcB5ZsBHg5cw" aggregationKind="NONE" name="actions" navigable="true">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyahoozoEeKcB5ZsBHg5cw"/>
+      <visualProperties xmi:id="_k8mYYozoEeKcB5ZsBHg5cw" position="-63.0,-46.0"/>
+      <visibility xmi:id="_k17Iq4zoEeKcB5ZsBHg5cw" label="+"/>
+      <cardinality xmi:id="_k17vsIzoEeKcB5ZsBHg5cw" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k17vsYzoEeKcB5ZsBHg5cw" aggregationKind="NONE" name="">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kylgxozoEeKcB5ZsBHg5cw"/>
+      <visualProperties xmi:id="_k8m_cYzoEeKcB5ZsBHg5cw" position="-24.0,12.0"/>
+      <visibility xmi:id="_k17vsozoEeKcB5ZsBHg5cw" label="+"/>
+      <cardinality xmi:id="_k17vs4zoEeKcB5ZsBHg5cw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k2ABIIzoEeKcB5ZsBHg5cw" sourceAnchor="263.0,15.0" targetAnchor="0.0,65.0" target="_k2DEeIzoEeKcB5ZsBHg5cw" source="_k2a34IzoEeKcB5ZsBHg5cw">
+    <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyk5sYzoEeKcB5ZsBHg5cw"/>
+    <nameVisual xmi:id="_k2B2UIzoEeKcB5ZsBHg5cw" text="">
+      <visualProperties xmi:id="_k8mYYIzoEeKcB5ZsBHg5cw" position="3.1935483870968255,230.0" visible="false"/>
+    </nameVisual>
+    <sourceRole xmi:id="_k2B2UYzoEeKcB5ZsBHg5cw" aggregationKind="NONE" name="player" navigable="true">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyYFYYzoEeKcB5ZsBHg5cw"/>
+      <visualProperties xmi:id="_k8lxUIzoEeKcB5ZsBHg5cw" position="45.85714285714289,-47.0"/>
+      <visibility xmi:id="_k2CdYIzoEeKcB5ZsBHg5cw" label="+"/>
+      <cardinality xmi:id="_k2B2U4zoEeKcB5ZsBHg5cw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k2B2UozoEeKcB5ZsBHg5cw" aggregationKind="NONE" name="">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyk5sozoEeKcB5ZsBHg5cw"/>
+      <visualProperties xmi:id="_k8mYYYzoEeKcB5ZsBHg5cw" position="-36.45161290322585,-47.0"/>
+      <visibility xmi:id="_k2CdY4zoEeKcB5ZsBHg5cw" label="+"/>
+      <cardinality xmi:id="_k2CdYozoEeKcB5ZsBHg5cw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_k2BPQIzoEeKcB5ZsBHg5cw" targetItem="_k2DEkozoEeKcB5ZsBHg5cw" sourceItem="_k2AoMIzoEeKcB5ZsBHg5cw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k2DEcIzoEeKcB5ZsBHg5cw" sourceAnchor="117.0,0.0" targetAnchor="97.0,111.0" target="_k2DEeIzoEeKcB5ZsBHg5cw" source="_k2g-gIzoEeKcB5ZsBHg5cw">
+    <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kykSpIzoEeKcB5ZsBHg5cw"/>
+    <nameVisual xmi:id="_k2DEcYzoEeKcB5ZsBHg5cw" text="">
+      <visualProperties xmi:id="_k8nmgYzoEeKcB5ZsBHg5cw" position="-18.0,195.0" visible="false"/>
+    </nameVisual>
+    <sourceRole xmi:id="_k2DEcozoEeKcB5ZsBHg5cw" aggregationKind="NONE" name="level" navigable="true">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyXeUYzoEeKcB5ZsBHg5cw"/>
+      <visualProperties xmi:id="_k8nmgIzoEeKcB5ZsBHg5cw" position="12.0,-40.0"/>
+      <visibility xmi:id="_k2DEc4zoEeKcB5ZsBHg5cw" label="+"/>
+      <cardinality xmi:id="_k2DEdIzoEeKcB5ZsBHg5cw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k2DEdYzoEeKcB5ZsBHg5cw" aggregationKind="NONE" name="">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyk5sIzoEeKcB5ZsBHg5cw"/>
+      <visualProperties xmi:id="_k8oNkIzoEeKcB5ZsBHg5cw" position="11.0,10.0"/>
+      <visibility xmi:id="_k2DEdozoEeKcB5ZsBHg5cw" label="+"/>
+      <cardinality xmi:id="_k2DEd4zoEeKcB5ZsBHg5cw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k2GHwIzoEeKcB5ZsBHg5cw" sourceAnchor="266.0,15.0" targetAnchor="0.0,107.0" target="_k2NcgIzoEeKcB5ZsBHg5cw" source="_k1zz4IzoEeKcB5ZsBHg5cw">
+    <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyjrl4zoEeKcB5ZsBHg5cw"/>
+    <nameVisual xmi:id="_k2Gu0ozoEeKcB5ZsBHg5cw" text="">
+      <visualProperties xmi:id="_k8gRwIzoEeKcB5ZsBHg5cw" position="-15.0,-17.0" visible="false"/>
+    </nameVisual>
+    <sourceRole xmi:id="_k2Gu04zoEeKcB5ZsBHg5cw" aggregationKind="NONE" name="item" navigable="true">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyW3QIzoEeKcB5ZsBHg5cw"/>
+      <visualProperties xmi:id="_k8fDo4zoEeKcB5ZsBHg5cw" position="33.0,-47.0"/>
+      <visibility xmi:id="_k2JLEYzoEeKcB5ZsBHg5cw" label="+"/>
+      <cardinality xmi:id="_k2JLEIzoEeKcB5ZsBHg5cw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k2Gu1IzoEeKcB5ZsBHg5cw" aggregationKind="NONE" name="">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyjrmIzoEeKcB5ZsBHg5cw"/>
+      <visualProperties xmi:id="_k8gRwYzoEeKcB5ZsBHg5cw" position="-28.0,-47.0"/>
+      <visibility xmi:id="_k2JLFIzoEeKcB5ZsBHg5cw" label="+"/>
+      <cardinality xmi:id="_k2JLE4zoEeKcB5ZsBHg5cw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_k2Gu0YzoEeKcB5ZsBHg5cw" targetItem="_k2NcgIzoEeKcB5ZsBHg5cw" sourceItem="_k2Gu0IzoEeKcB5ZsBHg5cw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_k2Gu1YzoEeKcB5ZsBHg5cw" sourceAnchor="400.0,65.0" targetAnchor="0.0,78.0" superClass="_k2d7MIzoEeKcB5ZsBHg5cw" subClass="_k2NcgIzoEeKcB5ZsBHg5cw">
+    <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyDVQozoEeKcB5ZsBHg5cw"/>
+    <bendpoints xmi:id="_w1FCQIzoEeKcB5ZsBHg5cw" sourceX="30" targetX="-55" targetY="-35"/>
+    <bendpoints xmi:id="_w1FpUIzoEeKcB5ZsBHg5cw" sourceX="30" sourceY="35" targetX="-55"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_k2HV4YzoEeKcB5ZsBHg5cw" targetItem="_k2NciIzoEeKcB5ZsBHg5cw" sourceItem="_k2HV4IzoEeKcB5ZsBHg5cw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_k2KZMYzoEeKcB5ZsBHg5cw" targetItem="_k2d7MIzoEeKcB5ZsBHg5cw" sourceItem="_k2KZMIzoEeKcB5ZsBHg5cw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_k2LAQYzoEeKcB5ZsBHg5cw" targetItem="_k2d7QYzoEeKcB5ZsBHg5cw" sourceItem="_k2LAQIzoEeKcB5ZsBHg5cw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_k2LnUYzoEeKcB5ZsBHg5cw" targetItem="_k2d7Q4zoEeKcB5ZsBHg5cw" sourceItem="_k2LnUIzoEeKcB5ZsBHg5cw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_k2LnU4zoEeKcB5ZsBHg5cw" targetItem="_k2d7TozoEeKcB5ZsBHg5cw" sourceItem="_k2LnUozoEeKcB5ZsBHg5cw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_k2MOYYzoEeKcB5ZsBHg5cw" targetItem="_k2d7VIzoEeKcB5ZsBHg5cw" sourceItem="_k2MOYIzoEeKcB5ZsBHg5cw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_k2Qf0YzoEeKcB5ZsBHg5cw" targetItem="_k2V_Y4zoEeKcB5ZsBHg5cw" sourceItem="_k2Qf0IzoEeKcB5ZsBHg5cw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_k2RG4IzoEeKcB5ZsBHg5cw" sourceAnchor="0.0,22.0" targetAnchor="248.0,56.0" superClass="_k2g-gIzoEeKcB5ZsBHg5cw" subClass="_k2V_Y4zoEeKcB5ZsBHg5cw">
+    <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyGYk4zoEeKcB5ZsBHg5cw"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k2Rt8IzoEeKcB5ZsBHg5cw" sourceAnchor="213.0,0.0" targetAnchor="124.0,111.0" target="_k2g-gIzoEeKcB5ZsBHg5cw" source="_k17vtIzoEeKcB5ZsBHg5cw">
+    <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyk5tYzoEeKcB5ZsBHg5cw"/>
+    <nameVisual xmi:id="_k2UKM4zoEeKcB5ZsBHg5cw" text="">
+      <visualProperties xmi:id="_k8kjMIzoEeKcB5ZsBHg5cw" position="2.0,-33.0" visible="false"/>
+    </nameVisual>
+    <sourceRole xmi:id="_k2UKNIzoEeKcB5ZsBHg5cw" aggregationKind="NONE" name="startingRoom" navigable="true">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyYscIzoEeKcB5ZsBHg5cw"/>
+      <visualProperties xmi:id="_k8j8IIzoEeKcB5ZsBHg5cw" position="-96.0,-41.0"/>
+      <visibility xmi:id="_k2VYVYzoEeKcB5ZsBHg5cw" label="+"/>
+      <cardinality xmi:id="_k2VYVIzoEeKcB5ZsBHg5cw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k2UKNYzoEeKcB5ZsBHg5cw" aggregationKind="NONE" name="">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyk5tozoEeKcB5ZsBHg5cw"/>
+      <visualProperties xmi:id="_k8kjMYzoEeKcB5ZsBHg5cw" position="-27.0,9.0"/>
+      <visibility xmi:id="_k2V_YozoEeKcB5ZsBHg5cw" label="+"/>
+      <cardinality xmi:id="_k2V_YYzoEeKcB5ZsBHg5cw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k2TjIIzoEeKcB5ZsBHg5cw" sourceAnchor="243.0,0.0" targetAnchor="154.0,111.0" target="_k2g-gIzoEeKcB5ZsBHg5cw" source="_k17vtIzoEeKcB5ZsBHg5cw">
+    <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kygoQYzoEeKcB5ZsBHg5cw"/>
+    <nameVisual xmi:id="_k2UKMIzoEeKcB5ZsBHg5cw" text="">
+      <visualProperties xmi:id="_k8lKQIzoEeKcB5ZsBHg5cw" position="2.0,17.0" visible="false"/>
+    </nameVisual>
+    <sourceRole xmi:id="_k2UKMYzoEeKcB5ZsBHg5cw" aggregationKind="NONE" name="rooms" navigable="true">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyZTgIzoEeKcB5ZsBHg5cw"/>
+      <visualProperties xmi:id="_k8kjMozoEeKcB5ZsBHg5cw" position="12.0,-41.0"/>
+      <visibility xmi:id="_k2VYUYzoEeKcB5ZsBHg5cw" label="+"/>
+      <cardinality xmi:id="_k2VYUIzoEeKcB5ZsBHg5cw" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k2UKMozoEeKcB5ZsBHg5cw" aggregationKind="NONE" name="">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kygoQIzoEeKcB5ZsBHg5cw"/>
+      <visualProperties xmi:id="_k8lKQYzoEeKcB5ZsBHg5cw" position="9.0,9.0"/>
+      <visibility xmi:id="_k2VYU4zoEeKcB5ZsBHg5cw" label="+"/>
+      <cardinality xmi:id="_k2VYUozoEeKcB5ZsBHg5cw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_k2TjIozoEeKcB5ZsBHg5cw" targetItem="_k2g-gIzoEeKcB5ZsBHg5cw" sourceItem="_k2TjIYzoEeKcB5ZsBHg5cw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k2XNgIzoEeKcB5ZsBHg5cw" sourceAnchor="240.0,0.0" targetAnchor="131.0,130.0" target="_k2a34IzoEeKcB5ZsBHg5cw" source="_k1zz4IzoEeKcB5ZsBHg5cw">
+    <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyh2YYzoEeKcB5ZsBHg5cw"/>
+    <nameVisual xmi:id="_k2X0kIzoEeKcB5ZsBHg5cw" text="">
+      <visualProperties xmi:id="_k8g40YzoEeKcB5ZsBHg5cw" position="2.5,2.6451612903225623" visible="false"/>
+    </nameVisual>
+    <sourceRole xmi:id="_k2X0kYzoEeKcB5ZsBHg5cw" aggregationKind="NONE" name="inventory" navigable="true">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyZTgozoEeKcB5ZsBHg5cw"/>
+      <visualProperties xmi:id="_k8g40IzoEeKcB5ZsBHg5cw" position="2.5,-85.93333333333334"/>
+      <visibility xmi:id="_k2aQ0YzoEeKcB5ZsBHg5cw" label="+"/>
+      <cardinality xmi:id="_k2aQ0IzoEeKcB5ZsBHg5cw" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k2X0kozoEeKcB5ZsBHg5cw" aggregationKind="NONE" name="">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyh2YIzoEeKcB5ZsBHg5cw"/>
+      <visualProperties xmi:id="_k8hf4IzoEeKcB5ZsBHg5cw" position="2.5,40.93333333333328"/>
+      <visibility xmi:id="_k2aQ04zoEeKcB5ZsBHg5cw" label="+"/>
+      <cardinality xmi:id="_k2aQ0ozoEeKcB5ZsBHg5cw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_k2YboYzoEeKcB5ZsBHg5cw" targetItem="_k2a37IzoEeKcB5ZsBHg5cw" sourceItem="_k2YboIzoEeKcB5ZsBHg5cw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_k2ZCsYzoEeKcB5ZsBHg5cw" targetItem="_k2a38IzoEeKcB5ZsBHg5cw" sourceItem="_k2ZCsIzoEeKcB5ZsBHg5cw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_k2ZCs4zoEeKcB5ZsBHg5cw" targetItem="_k2a39ozoEeKcB5ZsBHg5cw" sourceItem="_k2ZCsozoEeKcB5ZsBHg5cw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_k2ZpwYzoEeKcB5ZsBHg5cw" targetItem="_k2a3-ozoEeKcB5ZsBHg5cw" sourceItem="_k2ZpwIzoEeKcB5ZsBHg5cw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k2lP8IzoEeKcB5ZsBHg5cw" sourceAnchor="266.0,122.0" targetAnchor="0.0,45.0" target="_k2oTQIzoEeKcB5ZsBHg5cw" source="_k1zz4IzoEeKcB5ZsBHg5cw">
+    <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kykSoYzoEeKcB5ZsBHg5cw"/>
+    <nameVisual xmi:id="_k2l3AYzoEeKcB5ZsBHg5cw" text="">
+      <visualProperties xmi:id="_k8iG8YzoEeKcB5ZsBHg5cw" position="-15.0,2.0" visible="false"/>
+    </nameVisual>
+    <sourceRole xmi:id="_k2l3AozoEeKcB5ZsBHg5cw" aggregationKind="NONE" name="item" navigable="true">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyXeUIzoEeKcB5ZsBHg5cw"/>
+      <visualProperties xmi:id="_k8iG8IzoEeKcB5ZsBHg5cw" position="33.0,2.0"/>
+      <visibility xmi:id="_k2nsMYzoEeKcB5ZsBHg5cw" label="+"/>
+      <cardinality xmi:id="_k2nsMIzoEeKcB5ZsBHg5cw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k2l3A4zoEeKcB5ZsBHg5cw" aggregationKind="NONE" name="">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kykSoozoEeKcB5ZsBHg5cw"/>
+      <visualProperties xmi:id="_k8iuAIzoEeKcB5ZsBHg5cw" position="-28.0,-47.0"/>
+      <visibility xmi:id="_k2nsM4zoEeKcB5ZsBHg5cw" label="+"/>
+      <cardinality xmi:id="_k2nsMozoEeKcB5ZsBHg5cw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_k2l3AIzoEeKcB5ZsBHg5cw" sourceAnchor="398.0,46.0" targetAnchor="0.0,78.0" superClass="_k2d7MIzoEeKcB5ZsBHg5cw" subClass="_k2oTQIzoEeKcB5ZsBHg5cw">
+    <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyGYkozoEeKcB5ZsBHg5cw"/>
+    <bendpoints xmi:id="_w1FpUYzoEeKcB5ZsBHg5cw" sourceX="32" targetX="-55" targetY="115"/>
+    <bendpoints xmi:id="_w1FpUozoEeKcB5ZsBHg5cw" sourceX="32" sourceY="-115" targetX="-55"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_k13eQIzoEeKcB5ZsBHg5cw" sourceConnectionVisual="_k13eQYzoEeKcB5ZsBHg5cw" text="Represents a room in a level. A room has a set of actions associated with it&#xA;that the player can perform." item="_k17vtIzoEeKcB5ZsBHg5cw">
+    <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kylgxIzoEeKcB5ZsBHg5cw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_k14FUIzoEeKcB5ZsBHg5cw" sourceConnectionVisual="_k14FUYzoEeKcB5ZsBHg5cw" text="Adds an action to this room.&#xA;&#x9; * &#xA;&#x9; * @param action" item="_k17v14zoEeKcB5ZsBHg5cw">
+    <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kymH0IzoEeKcB5ZsBHg5cw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_k14sYIzoEeKcB5ZsBHg5cw" sourceConnectionVisual="_k14sYYzoEeKcB5ZsBHg5cw" text="Prints this rooms details (name, flavor text and actions). Also uses&#xA;&#x9; * {@code player} to print the player's inventory.&#xA;&#x9; * &#xA;&#x9; * @param player" item="_k17v24zoEeKcB5ZsBHg5cw">
+    <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kymH0YzoEeKcB5ZsBHg5cw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_k15TcIzoEeKcB5ZsBHg5cw" sourceConnectionVisual="_k15TcYzoEeKcB5ZsBHg5cw" text="Performs the action specified by {@code choice} or, if the choice was&#xA;&#x9; * invalid, prompts the user for a new choice.&#xA;&#x9; * &#xA;&#x9; * @param player&#xA;&#x9; * @param choice&#xA;&#x9; * @return" item="_k17v34zoEeKcB5ZsBHg5cw">
+    <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kymH0ozoEeKcB5ZsBHg5cw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_k2AoMIzoEeKcB5ZsBHg5cw" sourceConnectionVisual="_k2BPQIzoEeKcB5ZsBHg5cw" text="Starts and runs the game.&#xA;&#x9; *" item="_k2DEkozoEeKcB5ZsBHg5cw">
+    <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyk5s4zoEeKcB5ZsBHg5cw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_k2Gu0IzoEeKcB5ZsBHg5cw" sourceConnectionVisual="_k2Gu0YzoEeKcB5ZsBHg5cw" text="Represents an Action that results in the player obtaining an item." item="_k2NcgIzoEeKcB5ZsBHg5cw">
+    <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyjrlozoEeKcB5ZsBHg5cw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_k2HV4IzoEeKcB5ZsBHg5cw" sourceConnectionVisual="_k2HV4YzoEeKcB5ZsBHg5cw" text="Gets the item to be picked up&#xA;&#x9; * &#xA;&#x9; * @return item" item="_k2NciIzoEeKcB5ZsBHg5cw">
+    <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kykSoIzoEeKcB5ZsBHg5cw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_k2KZMIzoEeKcB5ZsBHg5cw" sourceConnectionVisual="_k2KZMYzoEeKcB5ZsBHg5cw" text="Represents an Action that may be performed in a Room" item="_k2d7MIzoEeKcB5ZsBHg5cw">
+    <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyjEhIzoEeKcB5ZsBHg5cw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_k2LAQIzoEeKcB5ZsBHg5cw" sourceConnectionVisual="_k2LAQYzoEeKcB5ZsBHg5cw" text="Prints this {@code Action}." item="_k2d7QYzoEeKcB5ZsBHg5cw">
+    <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyjrk4zoEeKcB5ZsBHg5cw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_k2LnUIzoEeKcB5ZsBHg5cw" sourceConnectionVisual="_k2LnUYzoEeKcB5ZsBHg5cw" text="@param actionId&#xA;&#x9; * @param description&#xA;&#x9; * @param nextRoom" item="_k2d7Q4zoEeKcB5ZsBHg5cw">
+    <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyjrkozoEeKcB5ZsBHg5cw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_k2LnUozoEeKcB5ZsBHg5cw" sourceConnectionVisual="_k2LnU4zoEeKcB5ZsBHg5cw" text="Determines if this {@code Action} is applicable given the items the&#xA;&#x9; * {@code player} has.&#xA;&#x9; * &#xA;&#x9; * @param player&#xA;&#x9; * @return boolean" item="_k2d7TozoEeKcB5ZsBHg5cw">
+    <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyjrlIzoEeKcB5ZsBHg5cw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_k2MOYIzoEeKcB5ZsBHg5cw" sourceConnectionVisual="_k2MOYYzoEeKcB5ZsBHg5cw" text="Performs this {@code Action}.&#xA;&#x9; * &lt;p>&#xA;&#x9; * Note that {@code player} argument is required for overridden versions of&#xA;&#x9; * this method that alter the {@code player} state.&#xA;&#x9; * &#xA;&#x9; * @param player&#xA;&#x9; * @return the room resulting from this action" item="_k2d7VIzoEeKcB5ZsBHg5cw">
+    <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyjrlYzoEeKcB5ZsBHg5cw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_k2Qf0IzoEeKcB5ZsBHg5cw" sourceConnectionVisual="_k2Qf0YzoEeKcB5ZsBHg5cw" text="Represents the castle level.&#xA;&lt;p>&#xA;Generates all rooms and actions necessary for the castle level." item="_k2V_Y4zoEeKcB5ZsBHg5cw">
+    <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kykSo4zoEeKcB5ZsBHg5cw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_k2TjIYzoEeKcB5ZsBHg5cw" sourceConnectionVisual="_k2TjIozoEeKcB5ZsBHg5cw" text="Represents a level in the game. Is inherited from to construct new levels." item="_k2g-gIzoEeKcB5ZsBHg5cw">
+    <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyk5tIzoEeKcB5ZsBHg5cw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_k2YboIzoEeKcB5ZsBHg5cw" sourceConnectionVisual="_k2YboYzoEeKcB5ZsBHg5cw" text="Gets a String of all items in the player's inventory.&#xA;&#x9; * &#xA;&#x9; * @return a {@code string} of inventory items" item="_k2a37IzoEeKcB5ZsBHg5cw">
+    <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kylgw4zoEeKcB5ZsBHg5cw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_k2ZCsIzoEeKcB5ZsBHg5cw" sourceConnectionVisual="_k2ZCsYzoEeKcB5ZsBHg5cw" text="Determines if this player has {@code item} in their inventory.&#xA;&#x9; * &#xA;&#x9; * @param item&#xA;&#x9; * @return {@code true} if {@code item} is in this player's inventory" item="_k2a38IzoEeKcB5ZsBHg5cw">
+    <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kylgwIzoEeKcB5ZsBHg5cw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_k2ZCsozoEeKcB5ZsBHg5cw" sourceConnectionVisual="_k2ZCs4zoEeKcB5ZsBHg5cw" text="Adds an item to this player's inventory.&#xA;&#x9; * &#xA;&#x9; * @param item" item="_k2a39ozoEeKcB5ZsBHg5cw">
+    <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kylgwYzoEeKcB5ZsBHg5cw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_k2ZpwIzoEeKcB5ZsBHg5cw" sourceConnectionVisual="_k2ZpwYzoEeKcB5ZsBHg5cw" text="Removes an item from this player's inventory.&#xA;&#x9; * &#xA;&#x9; * @param item" item="_k2a3-ozoEeKcB5ZsBHg5cw">
+    <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kylgwozoEeKcB5ZsBHg5cw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_k2DEeIzoEeKcB5ZsBHg5cw" name="Game" associationsIn="_k2ABIIzoEeKcB5ZsBHg5cw _k2DEcIzoEeKcB5ZsBHg5cw">
+    <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxG6EIzoEeKcB5ZsBHg5cw"/>
+    <visualProperties xmi:id="_k2DEeYzoEeKcB5ZsBHg5cw" position="1052.0,-1228.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_k2DEeozoEeKcB5ZsBHg5cw" name="LegacyStyledElement">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxG6EYzoEeKcB5ZsBHg5cw"/>
+    </stereotypes>
+    <visibility xmi:id="_k2DEe4zoEeKcB5ZsBHg5cw" label="+"/>
+    <attributes xmi:id="_k2DEfIzoEeKcB5ZsBHg5cw" name="level">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyXeUYzoEeKcB5ZsBHg5cw"/>
+      <stereotypes xmi:id="_k2DEfYzoEeKcB5ZsBHg5cw" name="Codestyle_get_setStyledElement">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyYFYIzoEeKcB5ZsBHg5cw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k2DEfozoEeKcB5ZsBHg5cw" name="Codestyle_get_setStyledElement">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyYFYIzoEeKcB5ZsBHg5cw"/>
+      </stereotypes>
+      <visibility xmi:id="_k2DEf4zoEeKcB5ZsBHg5cw" label="+"/>
+      <cardinality xmi:id="_k2DEgIzoEeKcB5ZsBHg5cw" label="1" max="1" min="1"/>
+      <type xmi:id="_k2DEgYzoEeKcB5ZsBHg5cw" name="Level">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxNnwIzoEeKcB5ZsBHg5cw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k2DEgozoEeKcB5ZsBHg5cw" name="player">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyYFYYzoEeKcB5ZsBHg5cw"/>
+      <stereotypes xmi:id="_k2DEg4zoEeKcB5ZsBHg5cw" name="StyledElement">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyYFYozoEeKcB5ZsBHg5cw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k2CdYYzoEeKcB5ZsBHg5cw" name="StyledElement">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyYFYozoEeKcB5ZsBHg5cw"/>
+      </stereotypes>
+      <visibility xmi:id="_k2DEhIzoEeKcB5ZsBHg5cw" label="+"/>
+      <cardinality xmi:id="_k2DEhYzoEeKcB5ZsBHg5cw" label="1" max="1" min="1"/>
+      <type xmi:id="_k2DEhozoEeKcB5ZsBHg5cw" name="Player">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxQrEIzoEeKcB5ZsBHg5cw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_k2DEh4zoEeKcB5ZsBHg5cw" name="getLevel">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxHhIIzoEeKcB5ZsBHg5cw"/>
+      <stereotypes xmi:id="_k2DEiIzoEeKcB5ZsBHg5cw" name="StyledElement">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxHhIYzoEeKcB5ZsBHg5cw"/>
+      </stereotypes>
+      <visibility xmi:id="_k2DEiYzoEeKcB5ZsBHg5cw" label="+"/>
+      <outParameters xmi:id="_k2DEiozoEeKcB5ZsBHg5cw">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyI004zoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k2DEi4zoEeKcB5ZsBHg5cw" name="Level">
+          <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxNnwIzoEeKcB5ZsBHg5cw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_k2DEjIzoEeKcB5ZsBHg5cw" name="Game">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxIIMIzoEeKcB5ZsBHg5cw"/>
+      <keywords xmi:id="_k2DEjYzoEeKcB5ZsBHg5cw" keyword="create"/>
+      <stereotypes xmi:id="_k2DEjozoEeKcB5ZsBHg5cw" name="StyledElement">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxIvQozoEeKcB5ZsBHg5cw"/>
+      </stereotypes>
+      <visibility xmi:id="_k2DEj4zoEeKcB5ZsBHg5cw" label="+"/>
+      <outParameters xmi:id="_k2DEkIzoEeKcB5ZsBHg5cw">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxIvQYzoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k2DEkYzoEeKcB5ZsBHg5cw" name="Game">
+          <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxG6EIzoEeKcB5ZsBHg5cw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_k2DEkozoEeKcB5ZsBHg5cw" comments="_k2AoMIzoEeKcB5ZsBHg5cw" targetConnectionVisual="_k2BPQIzoEeKcB5ZsBHg5cw" name="play">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxIvQ4zoEeKcB5ZsBHg5cw"/>
+      <stereotypes xmi:id="_k2DEk4zoEeKcB5ZsBHg5cw" name="StyledElement">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxIvRIzoEeKcB5ZsBHg5cw"/>
+      </stereotypes>
+      <visibility xmi:id="_k2DElIzoEeKcB5ZsBHg5cw" label="+"/>
+    </operations>
+    <operations xmi:id="_k2DElYzoEeKcB5ZsBHg5cw" name="setLevel">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyI00IzoEeKcB5ZsBHg5cw"/>
+      <stereotypes xmi:id="_k2DElozoEeKcB5ZsBHg5cw" name="StyledElement">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyI00ozoEeKcB5ZsBHg5cw"/>
+      </stereotypes>
+      <visibility xmi:id="_k2DEl4zoEeKcB5ZsBHg5cw" label="-"/>
+      <parameters xmi:id="_k2DEmIzoEeKcB5ZsBHg5cw" name="value">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyI00YzoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k2DEmYzoEeKcB5ZsBHg5cw" name="Level">
+          <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxNnwIzoEeKcB5ZsBHg5cw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_k2g-gIzoEeKcB5ZsBHg5cw" comments="_k2TjIYzoEeKcB5ZsBHg5cw" targetConnectionVisual="_k2TjIozoEeKcB5ZsBHg5cw" name="Level" associationsIn="_k2Rt8IzoEeKcB5ZsBHg5cw _k2TjIIzoEeKcB5ZsBHg5cw" associationsOut="_k2DEcIzoEeKcB5ZsBHg5cw" subclassedBy="_k2RG4IzoEeKcB5ZsBHg5cw">
+    <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxNnwIzoEeKcB5ZsBHg5cw"/>
+    <visualProperties xmi:id="_k2g-gYzoEeKcB5ZsBHg5cw" position="1032.0,-998.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_k2g-gozoEeKcB5ZsBHg5cw" label="+"/>
+    <attributes xmi:id="_k2g-g4zoEeKcB5ZsBHg5cw" name="startingRoom">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyYscIzoEeKcB5ZsBHg5cw"/>
+      <stereotypes xmi:id="_k2g-hIzoEeKcB5ZsBHg5cw" name="Codestyle_get_setStyledElement">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyYscYzoEeKcB5ZsBHg5cw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k2V_YIzoEeKcB5ZsBHg5cw" name="Codestyle_get_setStyledElement">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyYscYzoEeKcB5ZsBHg5cw"/>
+      </stereotypes>
+      <visibility xmi:id="_k2g-hYzoEeKcB5ZsBHg5cw" label="+"/>
+      <cardinality xmi:id="_k2g-hozoEeKcB5ZsBHg5cw" label="1" max="1" min="1"/>
+      <type xmi:id="_k2g-h4zoEeKcB5ZsBHg5cw" name="Room">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxTuYIzoEeKcB5ZsBHg5cw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k2g-iIzoEeKcB5ZsBHg5cw" name="rooms">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyZTgIzoEeKcB5ZsBHg5cw"/>
+      <visibility xmi:id="_k2g-iYzoEeKcB5ZsBHg5cw" label="+"/>
+      <cardinality xmi:id="_k2g-iozoEeKcB5ZsBHg5cw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_k2g-i4zoEeKcB5ZsBHg5cw" name="Room">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxTuYIzoEeKcB5ZsBHg5cw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_k2g-jIzoEeKcB5ZsBHg5cw" name="getStartingRoom">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxOO0IzoEeKcB5ZsBHg5cw"/>
+      <visibility xmi:id="_k2g-jYzoEeKcB5ZsBHg5cw" label="+"/>
+      <outParameters xmi:id="_k2g-jozoEeKcB5ZsBHg5cw">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyLREozoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k2g-j4zoEeKcB5ZsBHg5cw" name="Room">
+          <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxTuYIzoEeKcB5ZsBHg5cw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_k2g-kIzoEeKcB5ZsBHg5cw" name="Level">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxO14IzoEeKcB5ZsBHg5cw"/>
+      <keywords xmi:id="_k2g-kYzoEeKcB5ZsBHg5cw" keyword="create"/>
+      <visibility xmi:id="_k2g-kozoEeKcB5ZsBHg5cw" label="+"/>
+      <outParameters xmi:id="_k2g-k4zoEeKcB5ZsBHg5cw">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxO144zoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k2g-lIzoEeKcB5ZsBHg5cw" name="Level">
+          <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxNnwIzoEeKcB5ZsBHg5cw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_k2g-lYzoEeKcB5ZsBHg5cw" name="setStartingRoom">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyLREIzoEeKcB5ZsBHg5cw"/>
+      <visibility xmi:id="_k2g-lozoEeKcB5ZsBHg5cw" label="#"/>
+      <parameters xmi:id="_k2g-l4zoEeKcB5ZsBHg5cw" name="value">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyLREYzoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k2g-mIzoEeKcB5ZsBHg5cw" name="Room">
+          <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxTuYIzoEeKcB5ZsBHg5cw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_k2g-mYzoEeKcB5ZsBHg5cw" name="addRoom">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyLRE4zoEeKcB5ZsBHg5cw"/>
+      <visibility xmi:id="_k2g-mozoEeKcB5ZsBHg5cw" label="#"/>
+      <parameters xmi:id="_k2g-m4zoEeKcB5ZsBHg5cw" name="room">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyLRFIzoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k2g-nIzoEeKcB5ZsBHg5cw" name="Room">
+          <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxTuYIzoEeKcB5ZsBHg5cw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_k2V_Y4zoEeKcB5ZsBHg5cw" comments="_k2Qf0IzoEeKcB5ZsBHg5cw" targetConnectionVisual="_k2Qf0YzoEeKcB5ZsBHg5cw" name="Castle" generalizations="_k2RG4IzoEeKcB5ZsBHg5cw">
+    <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxEd0IzoEeKcB5ZsBHg5cw"/>
+    <visualProperties xmi:id="_k2V_ZIzoEeKcB5ZsBHg5cw" position="1397.0,-964.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_k2V_ZYzoEeKcB5ZsBHg5cw" label="+"/>
+    <operations xmi:id="_k2V_ZozoEeKcB5ZsBHg5cw" name="Castle">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxEd0YzoEeKcB5ZsBHg5cw"/>
+      <keywords xmi:id="_k2V_Z4zoEeKcB5ZsBHg5cw" keyword="create"/>
+      <visibility xmi:id="_k2V_aIzoEeKcB5ZsBHg5cw" label="+"/>
+      <outParameters xmi:id="_k2V_aYzoEeKcB5ZsBHg5cw">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxFE4ozoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k2V_aozoEeKcB5ZsBHg5cw" name="Castle">
+          <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxEd0IzoEeKcB5ZsBHg5cw"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_k17vtIzoEeKcB5ZsBHg5cw" comments="_k13eQIzoEeKcB5ZsBHg5cw" targetConnectionVisual="_k13eQYzoEeKcB5ZsBHg5cw" name="Room" associationsIn="_k17IqIzoEeKcB5ZsBHg5cw" associationsOut="_k16hkIzoEeKcB5ZsBHg5cw _k2Rt8IzoEeKcB5ZsBHg5cw _k2TjIIzoEeKcB5ZsBHg5cw">
+    <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxTuYIzoEeKcB5ZsBHg5cw"/>
+    <visualProperties xmi:id="_k17vtYzoEeKcB5ZsBHg5cw" position="943.0,-771.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_k17vtozoEeKcB5ZsBHg5cw" label="+"/>
+    <attributes xmi:id="_k17vt4zoEeKcB5ZsBHg5cw" name="roomName">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyZ6kIzoEeKcB5ZsBHg5cw"/>
+      <stereotypes xmi:id="_k17vuIzoEeKcB5ZsBHg5cw" name="LegacyStyledElement">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyZ6kYzoEeKcB5ZsBHg5cw"/>
+      </stereotypes>
+      <visibility xmi:id="_k17vuYzoEeKcB5ZsBHg5cw" label="-"/>
+      <cardinality xmi:id="_k17vuozoEeKcB5ZsBHg5cw" label="1" max="1" min="1"/>
+      <type xmi:id="_k17vu4zoEeKcB5ZsBHg5cw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k17vvIzoEeKcB5ZsBHg5cw" name="roomText">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyahoIzoEeKcB5ZsBHg5cw"/>
+      <stereotypes xmi:id="_k17vvYzoEeKcB5ZsBHg5cw" name="LegacyStyledElement">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyahoYzoEeKcB5ZsBHg5cw"/>
+      </stereotypes>
+      <visibility xmi:id="_k17vvozoEeKcB5ZsBHg5cw" label="-"/>
+      <cardinality xmi:id="_k17vv4zoEeKcB5ZsBHg5cw" label="1" max="1" min="1"/>
+      <type xmi:id="_k17vwIzoEeKcB5ZsBHg5cw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k17vwYzoEeKcB5ZsBHg5cw" name="actions">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyahoozoEeKcB5ZsBHg5cw"/>
+      <stereotypes xmi:id="_k17vwozoEeKcB5ZsBHg5cw" name="Codestyle_get_setStyledElement">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kybIsIzoEeKcB5ZsBHg5cw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k17vw4zoEeKcB5ZsBHg5cw" name="Codestyle_get_setStyledElement">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kybIsIzoEeKcB5ZsBHg5cw"/>
+      </stereotypes>
+      <visibility xmi:id="_k17vxIzoEeKcB5ZsBHg5cw" label="+"/>
+      <cardinality xmi:id="_k17vxYzoEeKcB5ZsBHg5cw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_k17vxozoEeKcB5ZsBHg5cw" name="Action">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kw1NQIzoEeKcB5ZsBHg5cw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k17vx4zoEeKcB5ZsBHg5cw" name="isGoal">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kybIsYzoEeKcB5ZsBHg5cw"/>
+      <stereotypes xmi:id="_k17vyIzoEeKcB5ZsBHg5cw" name="LegacyStyledElement">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kybIsozoEeKcB5ZsBHg5cw"/>
+      </stereotypes>
+      <visibility xmi:id="_k17vyYzoEeKcB5ZsBHg5cw" label="+"/>
+      <cardinality xmi:id="_k17vyozoEeKcB5ZsBHg5cw" label="1" max="1" min="1"/>
+      <type xmi:id="_k17vy4zoEeKcB5ZsBHg5cw" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_k17vzIzoEeKcB5ZsBHg5cw" name="Room">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxU8gIzoEeKcB5ZsBHg5cw"/>
+      <keywords xmi:id="_k17vzYzoEeKcB5ZsBHg5cw" keyword="create"/>
+      <visibility xmi:id="_k17vzozoEeKcB5ZsBHg5cw" label="+"/>
+      <outParameters xmi:id="_k17vz4zoEeKcB5ZsBHg5cw">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxVjkozoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k17v0IzoEeKcB5ZsBHg5cw" name="Room">
+          <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxTuYIzoEeKcB5ZsBHg5cw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_k17v0YzoEeKcB5ZsBHg5cw" name="roomName">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxU8gYzoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k17v0ozoEeKcB5ZsBHg5cw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_k17v04zoEeKcB5ZsBHg5cw" name="roomText">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxU8gozoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k17v1IzoEeKcB5ZsBHg5cw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_k17v1YzoEeKcB5ZsBHg5cw" name="isGoal">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxU8g4zoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k17v1ozoEeKcB5ZsBHg5cw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_k17v14zoEeKcB5ZsBHg5cw" comments="_k14FUIzoEeKcB5ZsBHg5cw" targetConnectionVisual="_k14FUYzoEeKcB5ZsBHg5cw" name="addAction">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyO7cIzoEeKcB5ZsBHg5cw"/>
+      <visibility xmi:id="_k17v2IzoEeKcB5ZsBHg5cw" label="+"/>
+      <parameters xmi:id="_k17v2YzoEeKcB5ZsBHg5cw" name="action">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyO7cYzoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k17v2ozoEeKcB5ZsBHg5cw" name="Action">
+          <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kw1NQIzoEeKcB5ZsBHg5cw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_k17v24zoEeKcB5ZsBHg5cw" comments="_k14sYIzoEeKcB5ZsBHg5cw" targetConnectionVisual="_k14sYYzoEeKcB5ZsBHg5cw" name="print">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyO7cozoEeKcB5ZsBHg5cw"/>
+      <visibility xmi:id="_k17v3IzoEeKcB5ZsBHg5cw" label="+"/>
+      <parameters xmi:id="_k17v3YzoEeKcB5ZsBHg5cw" name="player">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyO7c4zoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k17v3ozoEeKcB5ZsBHg5cw" name="Player">
+          <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxQrEIzoEeKcB5ZsBHg5cw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_k17v34zoEeKcB5ZsBHg5cw" comments="_k15TcIzoEeKcB5ZsBHg5cw" targetConnectionVisual="_k15TcYzoEeKcB5ZsBHg5cw" name="performAction">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyPigIzoEeKcB5ZsBHg5cw"/>
+      <visibility xmi:id="_k17v4IzoEeKcB5ZsBHg5cw" label="+"/>
+      <outParameters xmi:id="_k17v4YzoEeKcB5ZsBHg5cw">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyPig4zoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k17v4ozoEeKcB5ZsBHg5cw" name="Room">
+          <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxTuYIzoEeKcB5ZsBHg5cw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_k17v44zoEeKcB5ZsBHg5cw" name="player">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyPigYzoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k17v5IzoEeKcB5ZsBHg5cw" name="Player">
+          <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxQrEIzoEeKcB5ZsBHg5cw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_k17v5YzoEeKcB5ZsBHg5cw" name="choice">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyPigozoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k17v5ozoEeKcB5ZsBHg5cw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_k2d7MIzoEeKcB5ZsBHg5cw" comments="_k2KZMIzoEeKcB5ZsBHg5cw" targetConnectionVisual="_k2KZMYzoEeKcB5ZsBHg5cw" name="Action" associationsIn="_k16hkIzoEeKcB5ZsBHg5cw" associationsOut="_k17IqIzoEeKcB5ZsBHg5cw" subclassedBy="_k2Gu1YzoEeKcB5ZsBHg5cw _k2l3AIzoEeKcB5ZsBHg5cw">
+    <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kw1NQIzoEeKcB5ZsBHg5cw"/>
+    <visualProperties xmi:id="_k2d7MYzoEeKcB5ZsBHg5cw" position="953.0,-472.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_k2d7MozoEeKcB5ZsBHg5cw" label="+"/>
+    <attributes xmi:id="_k2d7M4zoEeKcB5ZsBHg5cw" name="actionId">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyUbAIzoEeKcB5ZsBHg5cw"/>
+      <stereotypes xmi:id="_k2d7NIzoEeKcB5ZsBHg5cw" name="LegacyStyledElement">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyUbAYzoEeKcB5ZsBHg5cw"/>
+      </stereotypes>
+      <visibility xmi:id="_k2d7NYzoEeKcB5ZsBHg5cw" label="-"/>
+      <cardinality xmi:id="_k2d7NozoEeKcB5ZsBHg5cw" label="1" max="1" min="1"/>
+      <type xmi:id="_k2d7N4zoEeKcB5ZsBHg5cw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k2d7OIzoEeKcB5ZsBHg5cw" name="description">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyVCEIzoEeKcB5ZsBHg5cw"/>
+      <stereotypes xmi:id="_k2d7OYzoEeKcB5ZsBHg5cw" name="LegacyStyledElement">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyVCEYzoEeKcB5ZsBHg5cw"/>
+      </stereotypes>
+      <visibility xmi:id="_k2d7OozoEeKcB5ZsBHg5cw" label="-"/>
+      <cardinality xmi:id="_k2d7O4zoEeKcB5ZsBHg5cw" label="1" max="1" min="1"/>
+      <type xmi:id="_k2d7PIzoEeKcB5ZsBHg5cw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k2d7PYzoEeKcB5ZsBHg5cw" name="nextRoom">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyVCEozoEeKcB5ZsBHg5cw"/>
+      <visibility xmi:id="_k2d7PozoEeKcB5ZsBHg5cw" label="+"/>
+      <cardinality xmi:id="_k2d7P4zoEeKcB5ZsBHg5cw" label="1" max="1" min="1"/>
+      <type xmi:id="_k2d7QIzoEeKcB5ZsBHg5cw" name="Room">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxTuYIzoEeKcB5ZsBHg5cw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_k2d7QYzoEeKcB5ZsBHg5cw" comments="_k2LAQIzoEeKcB5ZsBHg5cw" targetConnectionVisual="_k2LAQYzoEeKcB5ZsBHg5cw" name="print">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kw3pgIzoEeKcB5ZsBHg5cw"/>
+      <visibility xmi:id="_k2d7QozoEeKcB5ZsBHg5cw" label="+"/>
+    </operations>
+    <operations xmi:id="_k2d7Q4zoEeKcB5ZsBHg5cw" comments="_k2LnUIzoEeKcB5ZsBHg5cw" targetConnectionVisual="_k2LnUYzoEeKcB5ZsBHg5cw" name="Action">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kx-cwIzoEeKcB5ZsBHg5cw"/>
+      <keywords xmi:id="_k2d7RIzoEeKcB5ZsBHg5cw" keyword="create"/>
+      <visibility xmi:id="_k2d7RYzoEeKcB5ZsBHg5cw" label="+"/>
+      <outParameters xmi:id="_k2d7RozoEeKcB5ZsBHg5cw">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kx-cxozoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k2d7R4zoEeKcB5ZsBHg5cw" name="Action">
+          <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kw1NQIzoEeKcB5ZsBHg5cw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_k2d7SIzoEeKcB5ZsBHg5cw" name="actionId">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kx-cwYzoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k2d7SYzoEeKcB5ZsBHg5cw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_k2d7SozoEeKcB5ZsBHg5cw" name="description">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kx-cwozoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k2d7S4zoEeKcB5ZsBHg5cw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_k2d7TIzoEeKcB5ZsBHg5cw" name="nextRoom">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kx-cw4zoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k2d7TYzoEeKcB5ZsBHg5cw" name="Room">
+          <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxTuYIzoEeKcB5ZsBHg5cw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_k2d7TozoEeKcB5ZsBHg5cw" comments="_k2LnUozoEeKcB5ZsBHg5cw" targetConnectionVisual="_k2LnU4zoEeKcB5ZsBHg5cw" name="isApplicable">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kx_D0IzoEeKcB5ZsBHg5cw"/>
+      <visibility xmi:id="_k2d7T4zoEeKcB5ZsBHg5cw" label="+"/>
+      <outParameters xmi:id="_k2d7UIzoEeKcB5ZsBHg5cw">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kx_D0ozoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k2d7UYzoEeKcB5ZsBHg5cw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_k2d7UozoEeKcB5ZsBHg5cw" name="player">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kx_D0YzoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k2d7U4zoEeKcB5ZsBHg5cw" name="Player">
+          <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxQrEIzoEeKcB5ZsBHg5cw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_k2d7VIzoEeKcB5ZsBHg5cw" comments="_k2MOYIzoEeKcB5ZsBHg5cw" targetConnectionVisual="_k2MOYYzoEeKcB5ZsBHg5cw" name="perform">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kx_q4IzoEeKcB5ZsBHg5cw"/>
+      <visibility xmi:id="_k2d7VYzoEeKcB5ZsBHg5cw" label="+"/>
+      <outParameters xmi:id="_k2d7VozoEeKcB5ZsBHg5cw">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kx_q4ozoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k2d7V4zoEeKcB5ZsBHg5cw" name="Room">
+          <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxTuYIzoEeKcB5ZsBHg5cw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_k2d7WIzoEeKcB5ZsBHg5cw" name="player">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kx_q4YzoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k2d7WYzoEeKcB5ZsBHg5cw" name="Player">
+          <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxQrEIzoEeKcB5ZsBHg5cw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_k2kB0IzoEeKcB5ZsBHg5cw" name="EntryPoint">
+    <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxFr8IzoEeKcB5ZsBHg5cw"/>
+    <visualProperties xmi:id="_k2kB0YzoEeKcB5ZsBHg5cw" position="1280.0,-1191.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_k2kB0ozoEeKcB5ZsBHg5cw" label="+"/>
+    <operations xmi:id="_k2kB04zoEeKcB5ZsBHg5cw" name="main" staticOperation="true">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxGTAIzoEeKcB5ZsBHg5cw"/>
+      <visibility xmi:id="_k2kB1IzoEeKcB5ZsBHg5cw" label="+"/>
+      <parameters xmi:id="_k2kB1YzoEeKcB5ZsBHg5cw" name="args">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxGTAYzoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k2kB1ozoEeKcB5ZsBHg5cw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_k2NcgIzoEeKcB5ZsBHg5cw" comments="_k2Gu0IzoEeKcB5ZsBHg5cw" targetConnectionVisual="_k2Gu0YzoEeKcB5ZsBHg5cw" name="ActionPickupItem" associationsIn="_k2GHwIzoEeKcB5ZsBHg5cw" generalizations="_k2Gu1YzoEeKcB5ZsBHg5cw">
+    <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kw6s0IzoEeKcB5ZsBHg5cw"/>
+    <visualProperties xmi:id="_k2NcgYzoEeKcB5ZsBHg5cw" position="468.0,-494.0" size="400.0,130.0"/>
+    <visibility xmi:id="_k2NcgozoEeKcB5ZsBHg5cw" label="+"/>
+    <attributes xmi:id="_k2Ncg4zoEeKcB5ZsBHg5cw" name="item">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyW3QIzoEeKcB5ZsBHg5cw"/>
+      <stereotypes xmi:id="_k2NchIzoEeKcB5ZsBHg5cw" name="Codestyle_get_setStyledElement">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyW3QYzoEeKcB5ZsBHg5cw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k2JLEozoEeKcB5ZsBHg5cw" name="Codestyle_get_setStyledElement">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyW3QYzoEeKcB5ZsBHg5cw"/>
+      </stereotypes>
+      <visibility xmi:id="_k2NchYzoEeKcB5ZsBHg5cw" label="+"/>
+      <cardinality xmi:id="_k2NchozoEeKcB5ZsBHg5cw" label="1" max="1" min="1"/>
+      <type xmi:id="_k2Nch4zoEeKcB5ZsBHg5cw" name="Item">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxKkcIzoEeKcB5ZsBHg5cw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_k2NciIzoEeKcB5ZsBHg5cw" comments="_k2HV4IzoEeKcB5ZsBHg5cw" targetConnectionVisual="_k2HV4YzoEeKcB5ZsBHg5cw" name="getItem">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kw6s0YzoEeKcB5ZsBHg5cw"/>
+      <visibility xmi:id="_k2NciYzoEeKcB5ZsBHg5cw" label="+"/>
+      <outParameters xmi:id="_k2NciozoEeKcB5ZsBHg5cw">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyAR8ozoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k2Nci4zoEeKcB5ZsBHg5cw" name="Item">
+          <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxKkcIzoEeKcB5ZsBHg5cw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_k2NcjIzoEeKcB5ZsBHg5cw" name="setItem">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyAR8IzoEeKcB5ZsBHg5cw"/>
+      <visibility xmi:id="_k2NcjYzoEeKcB5ZsBHg5cw" label="-"/>
+      <parameters xmi:id="_k2NcjozoEeKcB5ZsBHg5cw" name="value">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyAR8YzoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k2Ncj4zoEeKcB5ZsBHg5cw" name="Item">
+          <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxKkcIzoEeKcB5ZsBHg5cw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_k2NckIzoEeKcB5ZsBHg5cw" name="ActionPickupItem">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyA5AIzoEeKcB5ZsBHg5cw"/>
+      <keywords xmi:id="_k2NckYzoEeKcB5ZsBHg5cw" keyword="create"/>
+      <visibility xmi:id="_k2NckozoEeKcB5ZsBHg5cw" label="+"/>
+      <outParameters xmi:id="_k2Nck4zoEeKcB5ZsBHg5cw">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyA5B4zoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k2NclIzoEeKcB5ZsBHg5cw" name="ActionPickupItem">
+          <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kw6s0IzoEeKcB5ZsBHg5cw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_k2NclYzoEeKcB5ZsBHg5cw" name="actionId">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyA5AYzoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k2NclozoEeKcB5ZsBHg5cw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_k2Ncl4zoEeKcB5ZsBHg5cw" name="description">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyA5AozoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k2NcmIzoEeKcB5ZsBHg5cw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_k2NcmYzoEeKcB5ZsBHg5cw" name="nextRoom">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyA5A4zoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k2NcmozoEeKcB5ZsBHg5cw" name="Room">
+          <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxTuYIzoEeKcB5ZsBHg5cw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_k2Ncm4zoEeKcB5ZsBHg5cw" name="item">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyA5BIzoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k2NcnIzoEeKcB5ZsBHg5cw" name="Item">
+          <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxKkcIzoEeKcB5ZsBHg5cw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_k2NcnYzoEeKcB5ZsBHg5cw" name="isApplicable">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyBgEIzoEeKcB5ZsBHg5cw"/>
+      <stereotypes xmi:id="_k2NcnozoEeKcB5ZsBHg5cw" name="LegacyStyledElement">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyCHIIzoEeKcB5ZsBHg5cw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k2Ncn4zoEeKcB5ZsBHg5cw" name="Annotations">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyCHIYzoEeKcB5ZsBHg5cw"/>
+      </stereotypes>
+      <visibility xmi:id="_k2NcoIzoEeKcB5ZsBHg5cw" label="+"/>
+      <outParameters xmi:id="_k2NcoYzoEeKcB5ZsBHg5cw">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyBgEozoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k2NcoozoEeKcB5ZsBHg5cw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_k2Nco4zoEeKcB5ZsBHg5cw" name="player">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyBgEYzoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k2NcpIzoEeKcB5ZsBHg5cw" name="Player">
+          <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxQrEIzoEeKcB5ZsBHg5cw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_k2NcpYzoEeKcB5ZsBHg5cw" name="perform">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyCHI4zoEeKcB5ZsBHg5cw"/>
+      <stereotypes xmi:id="_k2NcpozoEeKcB5ZsBHg5cw" name="LegacyStyledElement">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyCuMozoEeKcB5ZsBHg5cw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k2Ncp4zoEeKcB5ZsBHg5cw" name="Annotations">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyDVQIzoEeKcB5ZsBHg5cw"/>
+      </stereotypes>
+      <visibility xmi:id="_k2NcqIzoEeKcB5ZsBHg5cw" label="+"/>
+      <outParameters xmi:id="_k2NcqYzoEeKcB5ZsBHg5cw">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyCuMYzoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k2NcqozoEeKcB5ZsBHg5cw" name="Room">
+          <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxTuYIzoEeKcB5ZsBHg5cw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_k2Ncq4zoEeKcB5ZsBHg5cw" name="player">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyCuMIzoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k2NcrIzoEeKcB5ZsBHg5cw" name="Player">
+          <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxQrEIzoEeKcB5ZsBHg5cw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_k2oTQIzoEeKcB5ZsBHg5cw" name="ActionUseItem" associationsIn="_k2lP8IzoEeKcB5ZsBHg5cw" generalizations="_k2l3AIzoEeKcB5ZsBHg5cw">
+    <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kw_lUIzoEeKcB5ZsBHg5cw"/>
+    <visualProperties xmi:id="_k2oTQYzoEeKcB5ZsBHg5cw" position="468.0,-325.0" size="398.0,92.0"/>
+    <visibility xmi:id="_k2oTQozoEeKcB5ZsBHg5cw" label="+"/>
+    <attributes xmi:id="_k2oTQ4zoEeKcB5ZsBHg5cw" name="item">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyXeUIzoEeKcB5ZsBHg5cw"/>
+      <visibility xmi:id="_k2oTRIzoEeKcB5ZsBHg5cw" label="+"/>
+      <cardinality xmi:id="_k2oTRYzoEeKcB5ZsBHg5cw" label="1" max="1" min="1"/>
+      <type xmi:id="_k2oTRozoEeKcB5ZsBHg5cw" name="Item">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxKkcIzoEeKcB5ZsBHg5cw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_k2oTR4zoEeKcB5ZsBHg5cw" name="ActionUseItem">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyD8UIzoEeKcB5ZsBHg5cw"/>
+      <keywords xmi:id="_k2oTSIzoEeKcB5ZsBHg5cw" keyword="create"/>
+      <visibility xmi:id="_k2oTSYzoEeKcB5ZsBHg5cw" label="+"/>
+      <outParameters xmi:id="_k2oTSozoEeKcB5ZsBHg5cw">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyEjYozoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k2oTS4zoEeKcB5ZsBHg5cw" name="ActionUseItem">
+          <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kw_lUIzoEeKcB5ZsBHg5cw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_k2oTTIzoEeKcB5ZsBHg5cw" name="actionId">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyD8UYzoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k2oTTYzoEeKcB5ZsBHg5cw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_k2oTTozoEeKcB5ZsBHg5cw" name="description">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyD8UozoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k2oTT4zoEeKcB5ZsBHg5cw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_k2oTUIzoEeKcB5ZsBHg5cw" name="nextRoom">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyD8U4zoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k2oTUYzoEeKcB5ZsBHg5cw" name="Room">
+          <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxTuYIzoEeKcB5ZsBHg5cw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_k2oTUozoEeKcB5ZsBHg5cw" name="item">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyD8VIzoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k2oTU4zoEeKcB5ZsBHg5cw" name="Item">
+          <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxKkcIzoEeKcB5ZsBHg5cw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_k2oTVIzoEeKcB5ZsBHg5cw" name="isApplicable">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyEjY4zoEeKcB5ZsBHg5cw"/>
+      <stereotypes xmi:id="_k2oTVYzoEeKcB5ZsBHg5cw" name="LegacyStyledElement">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyFKcYzoEeKcB5ZsBHg5cw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k2oTVozoEeKcB5ZsBHg5cw" name="Annotations">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyFKcozoEeKcB5ZsBHg5cw"/>
+      </stereotypes>
+      <visibility xmi:id="_k2oTV4zoEeKcB5ZsBHg5cw" label="+"/>
+      <outParameters xmi:id="_k2oTWIzoEeKcB5ZsBHg5cw">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyFKcIzoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k2oTWYzoEeKcB5ZsBHg5cw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_k2oTWozoEeKcB5ZsBHg5cw" name="player">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyEjZIzoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k2oTW4zoEeKcB5ZsBHg5cw" name="Player">
+          <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxQrEIzoEeKcB5ZsBHg5cw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_k2oTXIzoEeKcB5ZsBHg5cw" name="perform">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyFxgIzoEeKcB5ZsBHg5cw"/>
+      <stereotypes xmi:id="_k2oTXYzoEeKcB5ZsBHg5cw" name="LegacyStyledElement">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyFxg4zoEeKcB5ZsBHg5cw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k2oTXozoEeKcB5ZsBHg5cw" name="Annotations">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyGYkIzoEeKcB5ZsBHg5cw"/>
+      </stereotypes>
+      <visibility xmi:id="_k2oTX4zoEeKcB5ZsBHg5cw" label="+"/>
+      <outParameters xmi:id="_k2oTYIzoEeKcB5ZsBHg5cw">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyFxgozoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k2oTYYzoEeKcB5ZsBHg5cw" name="Room">
+          <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxTuYIzoEeKcB5ZsBHg5cw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_k2oTYozoEeKcB5ZsBHg5cw" name="player">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyFxgYzoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k2oTY4zoEeKcB5ZsBHg5cw" name="Player">
+          <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxQrEIzoEeKcB5ZsBHg5cw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_k1zz4IzoEeKcB5ZsBHg5cw" name="Item" associationsOut="_k2GHwIzoEeKcB5ZsBHg5cw _k2XNgIzoEeKcB5ZsBHg5cw _k2lP8IzoEeKcB5ZsBHg5cw">
+    <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxKkcIzoEeKcB5ZsBHg5cw"/>
+    <visualProperties xmi:id="_k1zz4YzoEeKcB5ZsBHg5cw" position="-1.0,-402.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_k1zz4ozoEeKcB5ZsBHg5cw" label="+"/>
+    <attributes xmi:id="_k1zz44zoEeKcB5ZsBHg5cw" name="name">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyYFY4zoEeKcB5ZsBHg5cw"/>
+      <visibility xmi:id="_k1zz5IzoEeKcB5ZsBHg5cw" label="+"/>
+      <cardinality xmi:id="_k1zz5YzoEeKcB5ZsBHg5cw" label="1" max="1" min="1"/>
+      <type xmi:id="_k1zz5ozoEeKcB5ZsBHg5cw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_k1zz54zoEeKcB5ZsBHg5cw" name="Item">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxLLgIzoEeKcB5ZsBHg5cw"/>
+      <keywords xmi:id="_k1zz6IzoEeKcB5ZsBHg5cw" keyword="create"/>
+      <visibility xmi:id="_k1zz6YzoEeKcB5ZsBHg5cw" label="+"/>
+      <outParameters xmi:id="_k1zz6ozoEeKcB5ZsBHg5cw">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxLLhIzoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k1zz64zoEeKcB5ZsBHg5cw" name="Item">
+          <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxKkcIzoEeKcB5ZsBHg5cw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_k1zz7IzoEeKcB5ZsBHg5cw" name="name">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxLLgYzoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k1zz7YzoEeKcB5ZsBHg5cw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_k1zz7ozoEeKcB5ZsBHg5cw" name="hashCode">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxLLhYzoEeKcB5ZsBHg5cw"/>
+      <stereotypes xmi:id="_k1zz74zoEeKcB5ZsBHg5cw" name="LegacyStyledElement">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxLykYzoEeKcB5ZsBHg5cw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k1zz8IzoEeKcB5ZsBHg5cw" name="Annotations">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxLykozoEeKcB5ZsBHg5cw"/>
+      </stereotypes>
+      <visibility xmi:id="_k1zz8YzoEeKcB5ZsBHg5cw" label="+"/>
+      <outParameters xmi:id="_k1zz8ozoEeKcB5ZsBHg5cw">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxLykIzoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k1zz84zoEeKcB5ZsBHg5cw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_k1zz9IzoEeKcB5ZsBHg5cw" name="toString">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxMZoIzoEeKcB5ZsBHg5cw"/>
+      <stereotypes xmi:id="_k1zz9YzoEeKcB5ZsBHg5cw" name="LegacyStyledElement">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxMZoozoEeKcB5ZsBHg5cw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k1zz9ozoEeKcB5ZsBHg5cw" name="Annotations">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxNAsIzoEeKcB5ZsBHg5cw"/>
+      </stereotypes>
+      <visibility xmi:id="_k1zz94zoEeKcB5ZsBHg5cw" label="+"/>
+      <outParameters xmi:id="_k1zz-IzoEeKcB5ZsBHg5cw">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxMZoYzoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k1zz-YzoEeKcB5ZsBHg5cw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_k1zz-ozoEeKcB5ZsBHg5cw" name="equals">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kySl0IzoEeKcB5ZsBHg5cw"/>
+      <stereotypes xmi:id="_k1zz-4zoEeKcB5ZsBHg5cw" name="LegacyStyledElement">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kySl04zoEeKcB5ZsBHg5cw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k1zz_IzoEeKcB5ZsBHg5cw" name="Annotations">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kySl1IzoEeKcB5ZsBHg5cw"/>
+      </stereotypes>
+      <visibility xmi:id="_k1zz_YzoEeKcB5ZsBHg5cw" label="+"/>
+      <outParameters xmi:id="_k1zz_ozoEeKcB5ZsBHg5cw">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kySl0ozoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k1zz_4zoEeKcB5ZsBHg5cw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_k1z0AIzoEeKcB5ZsBHg5cw" name="obj">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kySl0YzoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k1z0AYzoEeKcB5ZsBHg5cw" name="Object">
+          <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyR-wIzoEeKcB5ZsBHg5cw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_k2a34IzoEeKcB5ZsBHg5cw" name="Player" associationsIn="_k2XNgIzoEeKcB5ZsBHg5cw" associationsOut="_k2ABIIzoEeKcB5ZsBHg5cw">
+    <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxQrEIzoEeKcB5ZsBHg5cw"/>
+    <visualProperties xmi:id="_k2a34YzoEeKcB5ZsBHg5cw" position="108.0,-1178.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_k2a34ozoEeKcB5ZsBHg5cw" label="+"/>
+    <attributes xmi:id="_k2a344zoEeKcB5ZsBHg5cw" name="inventory">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyZTgozoEeKcB5ZsBHg5cw"/>
+      <visibility xmi:id="_k2a35IzoEeKcB5ZsBHg5cw" label="+"/>
+      <cardinality xmi:id="_k2a35YzoEeKcB5ZsBHg5cw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_k2a35ozoEeKcB5ZsBHg5cw" name="Item">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxKkcIzoEeKcB5ZsBHg5cw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_k2a354zoEeKcB5ZsBHg5cw" name="Player">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxRSIIzoEeKcB5ZsBHg5cw"/>
+      <keywords xmi:id="_k2a36IzoEeKcB5ZsBHg5cw" keyword="create"/>
+      <visibility xmi:id="_k2a36YzoEeKcB5ZsBHg5cw" label="+"/>
+      <outParameters xmi:id="_k2a36ozoEeKcB5ZsBHg5cw">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxRSI4zoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k2a364zoEeKcB5ZsBHg5cw" name="Player">
+          <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxQrEIzoEeKcB5ZsBHg5cw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_k2a37IzoEeKcB5ZsBHg5cw" comments="_k2YboIzoEeKcB5ZsBHg5cw" targetConnectionVisual="_k2YboYzoEeKcB5ZsBHg5cw" name="getInventoryAsString">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxR5MIzoEeKcB5ZsBHg5cw"/>
+      <visibility xmi:id="_k2a37YzoEeKcB5ZsBHg5cw" label="+"/>
+      <outParameters xmi:id="_k2a37ozoEeKcB5ZsBHg5cw">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxR5MYzoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k2a374zoEeKcB5ZsBHg5cw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_k2a38IzoEeKcB5ZsBHg5cw" comments="_k2ZCsIzoEeKcB5ZsBHg5cw" targetConnectionVisual="_k2ZCsYzoEeKcB5ZsBHg5cw" name="hasItem">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyMfMIzoEeKcB5ZsBHg5cw"/>
+      <visibility xmi:id="_k2a38YzoEeKcB5ZsBHg5cw" label="+"/>
+      <outParameters xmi:id="_k2a38ozoEeKcB5ZsBHg5cw">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyMfMozoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k2a384zoEeKcB5ZsBHg5cw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_k2a39IzoEeKcB5ZsBHg5cw" name="item">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyMfMYzoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k2a39YzoEeKcB5ZsBHg5cw" name="Item">
+          <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxKkcIzoEeKcB5ZsBHg5cw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_k2a39ozoEeKcB5ZsBHg5cw" comments="_k2ZCsozoEeKcB5ZsBHg5cw" targetConnectionVisual="_k2ZCs4zoEeKcB5ZsBHg5cw" name="addItem">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyMfM4zoEeKcB5ZsBHg5cw"/>
+      <visibility xmi:id="_k2a394zoEeKcB5ZsBHg5cw" label="+"/>
+      <parameters xmi:id="_k2a3-IzoEeKcB5ZsBHg5cw" name="item">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyMfNIzoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k2a3-YzoEeKcB5ZsBHg5cw" name="Item">
+          <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxKkcIzoEeKcB5ZsBHg5cw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_k2a3-ozoEeKcB5ZsBHg5cw" comments="_k2ZpwIzoEeKcB5ZsBHg5cw" targetConnectionVisual="_k2ZpwYzoEeKcB5ZsBHg5cw" name="removeItem">
+      <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyNGQIzoEeKcB5ZsBHg5cw"/>
+      <visibility xmi:id="_k2a3-4zoEeKcB5ZsBHg5cw" label="+"/>
+      <parameters xmi:id="_k2a3_IzoEeKcB5ZsBHg5cw" name="item">
+        <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kyNGQYzoEeKcB5ZsBHg5cw"/>
+        <type xmi:id="_k2a3_YzoEeKcB5ZsBHg5cw" name="Item">
+          <modelElement href="dw.tutorial.game5_actionpickupitem.uml#_kxKkcIzoEeKcB5ZsBHg5cw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
