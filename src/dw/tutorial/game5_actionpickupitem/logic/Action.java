@@ -1,4 +1,4 @@
-package dw.tutorial.game5_actionpickupitem.model;
+package dw.tutorial.game5_actionpickupitem.logic;
 
 
 /** Represents an Action that may be performed in a Room */

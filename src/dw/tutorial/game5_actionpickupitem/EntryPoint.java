@@ -1,7 +1,7 @@
 package dw.tutorial.game5_actionpickupitem;
 
-import dw.tutorial.game5_actionpickupitem.model.Game;
-import dw.tutorial.game5_actionpickupitem.view.MainFrame;
+import dw.tutorial.game5_actionpickupitem.gui.view.MainFrame;
+import dw.tutorial.game5_actionpickupitem.logic.Game;
 
 public class EntryPoint {
 

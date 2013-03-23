@@ -1,4 +1,4 @@
-package dw.tutorial.game5_actionpickupitem.model;
+package dw.tutorial.game5_actionpickupitem.logic;
 
 public class ActionUseItem extends Action {
 

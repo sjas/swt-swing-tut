@@ -1,4 +1,4 @@
-package dw.tutorial.game5_actionpickupitem.model;
+package dw.tutorial.game5_actionpickupitem.logic;
 
 import java.util.ArrayList;
 
