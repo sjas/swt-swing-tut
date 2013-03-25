@@ -1,7 +1,6 @@
 package dw.tutorial.game5_actionpickupitem;
 
-import dw.tutorial.game5_actionpickupitem.gui.view.MainFrame;
-import dw.tutorial.game5_actionpickupitem.logic.Game;
+import dw.tutorial.game5_actionpickupitem.gui.controller.GuiController;
 
 public class EntryPoint {
 
@@ -11,9 +10,10 @@ public class EntryPoint {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		Game game = new Game();
-		new MainFrame(game);
-		game.play();
+		new GuiController();
+		//old code
+//		Game game = new Game();
+//		game.play();
 	}
 
 }

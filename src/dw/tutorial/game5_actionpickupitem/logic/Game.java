@@ -46,6 +46,8 @@ public class Game {
 	public Game() {
 		level = new Castle();
 		player = new Player();
+		// TODO
+//		play();
 	}
 
 	/**
